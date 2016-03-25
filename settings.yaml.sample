@@ -1,0 +1,16 @@
+# past account info
+BEFORE:
+  USERNAME: taro                                     #　username
+  API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  # API_KEY
+# enterprise account info
+AFTER:
+  USERNAME: hanako
+  API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# application info
+APPS:
+  - PLATFORM: android                   # android or ios
+    PACKAGE: com.sample.app             # application package name
+    AFTER_GROUP: sample_apps_android    # group name that you want to upload
+  - PLATFORM: ios
+    PACKAGE: com.sample.app-autoflight
+    AFTER_GROUP: sample_apps_ios
